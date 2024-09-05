@@ -1,0 +1,52 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main container styling */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    color: #007acc;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Add some padding to the top */
+body {
+    padding-top: 50px;
+}
+
+/* Styling for footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
