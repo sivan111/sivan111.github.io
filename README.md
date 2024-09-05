@@ -15,4 +15,4 @@ You can view the live site here: [https://your-username.github.io](https://your-
 ## Future Plans
 
 - Add more styling and interactivity.
-- Experiment with Google Analytics and Google Tag Manager.
+- Experiment.
