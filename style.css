@@ -5,15 +5,18 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;  /* Ensure footer stays at the bottom */
 }
 
 /* Main container styling */
@@ -23,6 +26,7 @@ body {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;  /* Make this section grow to fill space between header and footer */
 }
 
 /* Heading styling */
@@ -39,14 +43,11 @@ p {
     color: #555;
 }
 
-/* Add some padding to the top */
-body {
-    padding-top: 50px;
-}
-
 /* Styling for footer */
 footer {
-    margin-top: 20px;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f4f4f4;
     font-size: 0.9rem;
     color: #777;
 }
