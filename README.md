@@ -10,7 +10,7 @@ This is a simple website hosted on **GitHub Pages**. It contains basic HTML and 
 
 ## How to View the Site
 
-You can view the live site here: [https://your-username.github.io](https://your-username.github.io)
+You can view the live site here: [https://your-username.github.io](https://sivan111.github.io)
 
 ## Future Plans
 
